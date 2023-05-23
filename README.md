@@ -4,6 +4,28 @@
 
 Este programa en Go verifica si un número entero ingresado es un palíndromo.
 
+## ¿Qué es un palíndromo?
+
+Un palíndromo es una secuencia de caracteres que se lee igual de izquierda a derecha y de derecha a izquierda. En el caso de este programa, se trata de verificar si un número entero dado es un palíndromo cuando se lee en ambas direcciones.
+
+## Cómo funciona el programa
+
+1. El programa muestra un menú en la consola con las siguientes opciones:
+   - Opción 1: Calcular palíndromo de un número entero.
+   - Opción 2: Salir del programa.
+
+2. Si el usuario elige la opción 1, se le solicita ingresar un número entero.
+
+3. El programa verifica si el número ingresado es un palíndromo utilizando el siguiente enfoque:
+   - Convierte el número entero en una cadena de texto.
+   - Invierte la cadena de texto.
+   - Compara la cadena original con la cadena invertida.
+   - Si las cadenas son iguales, el número es un palíndromo. De lo contrario, no lo es.
+
+4. El programa muestra un mensaje indicando si el número ingresado es un palíndromo o no.
+
+5. El usuario puede repetir el proceso seleccionando una opción válida del menú o puede elegir la opción 2 para salir del programa.
+
 ## Requisitos
 - Go (es compatible con cualquier versión de Go que sea igual o posterior a la versión 1.0).
 *No se utilizan características específicas de una versión en particular, por lo que debería funcionar sin problemas en las versiones más recientes de Go.*
